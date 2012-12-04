@@ -1,0 +1,657 @@
+@font-face {
+  font-family: 'ico';
+  src: url("../fonts/ico.eot");
+  src: url("../fonts/ico.eot?#iefix") format("embedded-opentype"), url("../fonts/ico.svg#ico") format("svg"), url("../fonts/ico.woff") format("woff"), url("../fonts/ico.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+/* line 13, ../src/_ico-style.scss */
+[data-icon]:before {
+  font-family: 'ico';
+  content: attr(data-icon);
+  speak: none;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased; }
+
+/* Use the following CSS code if you want to have a class per icon */
+/* line 23, ../src/_ico-style.scss */
+[class^="ico-"]:before, [class*=" ico-"]:before {
+  font-family: 'ico';
+  font-style: normal;
+  speak: none;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased; }
+
+/* line 31, ../src/_ico-style.scss */
+.ico-home:before {
+  content: "\21"; }
+
+/* line 34, ../src/_ico-style.scss */
+.ico-book:before {
+  content: "\22"; }
+
+/* line 37, ../src/_ico-style.scss */
+.ico-file:before {
+  content: "\23"; }
+
+/* line 40, ../src/_ico-style.scss */
+.ico-new:before {
+  content: "\24"; }
+
+/* line 43, ../src/_ico-style.scss */
+.ico-copy:before {
+  content: "\25"; }
+
+/* line 46, ../src/_ico-style.scss */
+.ico-folder:before {
+  content: "\26"; }
+
+/* line 49, ../src/_ico-style.scss */
+.ico-folder-2:before {
+  content: "\27"; }
+
+/* line 52, ../src/_ico-style.scss */
+.ico-broadcast:before {
+  content: "\28"; }
+
+/* line 55, ../src/_ico-style.scss */
+.ico-clock:before {
+  content: "\29"; }
+
+/* line 58, ../src/_ico-style.scss */
+.ico-calendar:before {
+  content: "\2a"; }
+
+/* line 61, ../src/_ico-style.scss */
+.ico-cabinet:before {
+  content: "\2b"; }
+
+/* line 64, ../src/_ico-style.scss */
+.ico-drawer:before {
+  content: "\2c"; }
+
+/* line 67, ../src/_ico-style.scss */
+.ico-drawer-2:before {
+  content: "\2d"; }
+
+/* line 70, ../src/_ico-style.scss */
+.ico-box:before {
+  content: "\2e"; }
+
+/* line 73, ../src/_ico-style.scss */
+.ico-box-add:before {
+  content: "\2f"; }
+
+/* line 76, ../src/_ico-style.scss */
+.ico-box-remove:before {
+  content: "\30"; }
+
+/* line 79, ../src/_ico-style.scss */
+.ico-download:before {
+  content: "\31"; }
+
+/* line 82, ../src/_ico-style.scss */
+.ico-upload:before {
+  content: "\32"; }
+
+/* line 85, ../src/_ico-style.scss */
+.ico-mail:before {
+  content: "\33"; }
+
+/* line 88, ../src/_ico-style.scss */
+.ico-phone:before {
+  content: "\34"; }
+
+/* line 91, ../src/_ico-style.scss */
+.ico-user:before {
+  content: "\35"; }
+
+/* line 94, ../src/_ico-style.scss */
+.ico-comments:before {
+  content: "\36"; }
+
+/* line 97, ../src/_ico-style.scss */
+.ico-comments-2:before {
+  content: "\37"; }
+
+/* line 100, ../src/_ico-style.scss */
+.ico-undo:before {
+  content: "\38"; }
+
+/* line 103, ../src/_ico-style.scss */
+.ico-cog:before {
+  content: "\39"; }
+
+/* line 106, ../src/_ico-style.scss */
+.ico-link:before {
+  content: "\3a"; }
+
+/* line 109, ../src/_ico-style.scss */
+.ico-thumbs-up:before {
+  content: "\3b"; }
+
+/* line 112, ../src/_ico-style.scss */
+.ico-thumbs-down:before {
+  content: "\3c"; }
+
+/* line 115, ../src/_ico-style.scss */
+.ico-happy:before {
+  content: "\3d"; }
+
+/* line 118, ../src/_ico-style.scss */
+.ico-smiley:before {
+  content: "\3e"; }
+
+/* line 121, ../src/_ico-style.scss */
+.ico-neutral:before {
+  content: "\3f"; }
+
+/* line 124, ../src/_ico-style.scss */
+.ico-arrow-up:before {
+  content: "\40"; }
+
+/* line 127, ../src/_ico-style.scss */
+.ico-arrow-right:before {
+  content: "\41"; }
+
+/* line 130, ../src/_ico-style.scss */
+.ico-arrow-down:before {
+  content: "\42"; }
+
+/* line 133, ../src/_ico-style.scss */
+.ico-arrow-left:before {
+  content: "\43"; }
+
+/* line 136, ../src/_ico-style.scss */
+.ico-github:before {
+  content: "\44"; }
+
+/* line 139, ../src/_ico-style.scss */
+.ico-forrst:before {
+  content: "\45"; }
+
+/* line 142, ../src/_ico-style.scss */
+.ico-dribbble:before {
+  content: "\46"; }
+
+/* line 145, ../src/_ico-style.scss */
+.ico-google-plus:before {
+  content: "\47"; }
+
+/* line 148, ../src/_ico-style.scss */
+.ico-mail-2:before {
+  content: "\48"; }
+
+/* line 151, ../src/_ico-style.scss */
+.ico-linkedin:before {
+  content: "\49"; }
+
+/* line 154, ../src/_ico-style.scss */
+.ico-tumblr:before {
+  content: "\4a"; }
+
+/* line 157, ../src/_ico-style.scss */
+.ico-github-2:before {
+  content: "\4b"; }
+
+/* line 160, ../src/_ico-style.scss */
+.ico-github-3:before {
+  content: "\4c"; }
+
+/* line 163, ../src/_ico-style.scss */
+.ico-github-4:before {
+  content: "\4d"; }
+
+/* line 166, ../src/_ico-style.scss */
+.ico-github-5:before {
+  content: "\4e"; }
+
+/* line 169, ../src/_ico-style.scss */
+.ico-github-6:before {
+  content: "\4f"; }
+
+/* line 172, ../src/_ico-style.scss */
+.ico-forrst-2:before {
+  content: "\50"; }
+
+/* line 175, ../src/_ico-style.scss */
+.ico-tumblr-2:before {
+  content: "\51"; }
+
+/* line 178, ../src/_ico-style.scss */
+.ico-linkedin-2:before {
+  content: "\52"; }
+
+/* line 181, ../src/_ico-style.scss */
+.ico-mail-3:before {
+  content: "\53"; }
+
+/* line 184, ../src/_ico-style.scss */
+.ico-mail-4:before {
+  content: "\54"; }
+
+/* line 187, ../src/_ico-style.scss */
+.ico-google-plus-2:before {
+  content: "\55"; }
+
+/* line 190, ../src/_ico-style.scss */
+.ico-google-plus-3:before {
+  content: "\56"; }
+
+/* line 193, ../src/_ico-style.scss */
+.ico-gplus:before {
+  content: "\57"; }
+
+/* line 196, ../src/_ico-style.scss */
+.ico-twitter:before {
+  content: "\58"; }
+
+/* line 199, ../src/_ico-style.scss */
+.ico-twitter-2:before {
+  content: "\59"; }
+
+/* line 202, ../src/_ico-style.scss */
+.ico-twitter-3:before {
+  content: "\5a"; }
+
+/* line 205, ../src/_ico-style.scss */
+.ico-chrome:before {
+  content: "\5b"; }
+
+/* line 208, ../src/_ico-style.scss */
+.ico-html5:before {
+  content: "\5c"; }
+
+/* line 211, ../src/_ico-style.scss */
+.ico-html5-2:before {
+  content: "\5d"; }
+
+/* line 214, ../src/_ico-style.scss */
+.ico-css3:before {
+  content: "\5e"; }
+
+/* line 217, ../src/_ico-style.scss */
+.ico-firefox:before {
+  content: "\5f"; }
+
+/* line 220, ../src/_ico-style.scss */
+.ico-IE:before {
+  content: "\60"; }
+
+/* line 223, ../src/_ico-style.scss */
+.ico-opera:before {
+  content: "\61"; }
+
+/* line 226, ../src/_ico-style.scss */
+.ico-safari:before {
+  content: "\62"; }
+
+/* line 229, ../src/_ico-style.scss */
+.ico-IcoMoon:before {
+  content: "\63"; }
+
+/* line 232, ../src/_ico-style.scss */
+.ico-sunrise:before {
+  content: "\64"; }
+
+/* line 235, ../src/_ico-style.scss */
+.ico-sun:before {
+  content: "\65"; }
+
+/* line 238, ../src/_ico-style.scss */
+.ico-moon:before {
+  content: "\66"; }
+
+/* line 241, ../src/_ico-style.scss */
+.ico-sun-2:before {
+  content: "\67"; }
+
+/* line 244, ../src/_ico-style.scss */
+.ico-windy:before {
+  content: "\68"; }
+
+/* line 247, ../src/_ico-style.scss */
+.ico-wind:before {
+  content: "\69"; }
+
+/* line 250, ../src/_ico-style.scss */
+.ico-snowflake:before {
+  content: "\6a"; }
+
+/* line 253, ../src/_ico-style.scss */
+.ico-cloudy:before {
+  content: "\6b"; }
+
+/* line 256, ../src/_ico-style.scss */
+.ico-cloud:before {
+  content: "\6c"; }
+
+/* line 259, ../src/_ico-style.scss */
+.ico-weather:before {
+  content: "\6d"; }
+
+/* line 262, ../src/_ico-style.scss */
+.ico-weather-2:before {
+  content: "\6e"; }
+
+/* line 265, ../src/_ico-style.scss */
+.ico-weather-3:before {
+  content: "\6f"; }
+
+/* line 268, ../src/_ico-style.scss */
+.ico-lines:before {
+  content: "\70"; }
+
+/* line 271, ../src/_ico-style.scss */
+.ico-cloud-2:before {
+  content: "\71"; }
+
+/* line 274, ../src/_ico-style.scss */
+.ico-lightning:before {
+  content: "\72"; }
+
+/* line 277, ../src/_ico-style.scss */
+.ico-cloudy-2:before {
+  content: "\73"; }
+
+/* line 280, ../src/_ico-style.scss */
+.ico-compass:before {
+  content: "\74"; }
+
+/* line 283, ../src/_ico-style.scss */
+.ico-moon-2:before {
+  content: "\75"; }
+
+/* line 286, ../src/_ico-style.scss */
+.ico-thermometer:before {
+  content: "\76"; }
+
+/* line 289, ../src/_ico-style.scss */
+.ico-sun-3:before {
+  content: "\77"; }
+
+/* line 292, ../src/_ico-style.scss */
+.ico-lightning-2:before {
+  content: "\78"; }
+
+/* line 295, ../src/_ico-style.scss */
+.ico-lightning-3:before {
+  content: "\79"; }
+
+/* line 298, ../src/_ico-style.scss */
+.ico-cloudy-3:before {
+  content: "\7a"; }
+
+/* line 301, ../src/_ico-style.scss */
+.ico-cloud-3:before {
+  content: "\7b"; }
+
+/* line 304, ../src/_ico-style.scss */
+.ico-cloudy-4:before {
+  content: "\7c"; }
+
+/* line 307, ../src/_ico-style.scss */
+.ico-weather-4:before {
+  content: "\7d"; }
+
+/* line 310, ../src/_ico-style.scss */
+.ico-snowy:before {
+  content: "\7e"; }
+
+/* line 313, ../src/_ico-style.scss */
+.ico-snowy-2:before {
+  content: "\e000"; }
+
+/* line 316, ../src/_ico-style.scss */
+.ico-snowy-3:before {
+  content: "\e001"; }
+
+/* line 319, ../src/_ico-style.scss */
+.ico-windy-2:before {
+  content: "\e002"; }
+
+/* line 322, ../src/_ico-style.scss */
+.ico-windy-3:before {
+  content: "\e003"; }
+
+/* line 325, ../src/_ico-style.scss */
+.ico-rainy:before {
+  content: "\e004"; }
+
+/* line 328, ../src/_ico-style.scss */
+.ico-lightning-4:before {
+  content: "\e005"; }
+
+/* line 331, ../src/_ico-style.scss */
+.ico-rainy-2:before {
+  content: "\e006"; }
+
+/* line 334, ../src/_ico-style.scss */
+.ico-cloud-4:before {
+  content: "\e007"; }
+
+/* line 337, ../src/_ico-style.scss */
+.ico-cloud-5:before {
+  content: "\e008"; }
+
+/* line 340, ../src/_ico-style.scss */
+.ico-lightning-5:before {
+  content: "\e009"; }
+
+/* line 343, ../src/_ico-style.scss */
+.ico-rainy-3:before {
+  content: "\e00a"; }
+
+/* line 346, ../src/_ico-style.scss */
+.ico-rainy-4:before {
+  content: "\e00b"; }
+
+/* line 349, ../src/_ico-style.scss */
+.ico-windy-4:before {
+  content: "\e00c"; }
+
+/* line 352, ../src/_ico-style.scss */
+.ico-windy-5:before {
+  content: "\e00d"; }
+
+/* line 355, ../src/_ico-style.scss */
+.ico-snowy-4:before {
+  content: "\e00e"; }
+
+/* line 358, ../src/_ico-style.scss */
+.ico-snowy-5:before {
+  content: "\e00f"; }
+
+/* line 361, ../src/_ico-style.scss */
+.ico-weather-5:before {
+  content: "\e010"; }
+
+/* line 364, ../src/_ico-style.scss */
+.ico-cube:before {
+  content: "\e011"; }
+
+/* line 6, ../src/styles.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 8, ../src/styles.scss */
+html, body {
+  height: 100%;
+  background-image: url(http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/darkdenim3.png); }
+
+/* line 13, ../src/styles.scss */
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; }
+
+/* line 20, ../src/styles.scss */
+.icons a {
+  -webkit-transition-property: color, text-shadow, background-image;
+  -moz-transition-property: color, text-shadow, background-image;
+  -o-transition-property: color, text-shadow, background-image;
+  transition-property: color, text-shadow, background-image;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #dddddd), color-stop(100%, #aaaaaa));
+  background-image: -webkit-linear-gradient(top, #dddddd, #aaaaaa);
+  background-image: -moz-linear-gradient(top, #dddddd, #aaaaaa);
+  background-image: -o-linear-gradient(top, #dddddd, #aaaaaa);
+  background-image: linear-gradient(top, #dddddd, #aaaaaa);
+  -webkit-box-shadow: inset rgba(255, 255, 255, 0.6) 0px 1px 0px, inset rgba(0, 0, 0, 0.6) 0px -1px 0px;
+  -moz-box-shadow: inset rgba(255, 255, 255, 0.6) 0px 1px 0px, inset rgba(0, 0, 0, 0.6) 0px -1px 0px;
+  box-shadow: inset rgba(255, 255, 255, 0.6) 0px 1px 0px, inset rgba(0, 0, 0, 0.6) 0px -1px 0px;
+  color: #4d4d4d;
+  text-shadow: rgba(255, 255, 255, 0.6) 0px 1px 0px; }
+  /* line 31, ../src/styles.scss */
+  .icons a:focus, .icons a:hover {
+    color: #333333;
+    text-decoration: none;
+    text-shadow: rgba(255, 255, 255, 0.8) 0px 1px 0px;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #bbbbbb), color-stop(100%, #999999));
+    background-image: -webkit-linear-gradient(top, #bbbbbb, #999999);
+    background-image: -moz-linear-gradient(top, #bbbbbb, #999999);
+    background-image: -o-linear-gradient(top, #bbbbbb, #999999);
+    background-image: linear-gradient(top, #bbbbbb, #999999); }
+  /* line 37, ../src/styles.scss */
+  .icons a:active {
+    color: white;
+    text-shadow: rgba(0, 0, 0, 0.8) 0px -1px 0px;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #bbbbbb), color-stop(100%, #999999));
+    background-image: -webkit-linear-gradient(top, #bbbbbb, #999999);
+    background-image: -moz-linear-gradient(top, #bbbbbb, #999999);
+    background-image: -o-linear-gradient(top, #bbbbbb, #999999);
+    background-image: linear-gradient(top, #bbbbbb, #999999); }
+  /* line 42, ../src/styles.scss */
+  .icons a span {
+    overflow: hidden;
+    display: block;
+    position: relative;
+    text-indent: -20020px; }
+@media (min-width: 701px) {
+  /* line 19, ../src/styles.scss */
+  .icons {
+    display: block;
+    position: absolute;
+    left: 80%;
+    top: 40px;
+    z-index: 0; }
+    /* line 55, ../src/styles.scss */
+    .icons a {
+      margin: 13px 0 0 0;
+      padding: 8px;
+      font-size: 2em;
+      width: 50px;
+      height: 50px;
+      text-align: center;
+      border: 1px solid #777;
+      border-left: none;
+      display: block;
+      -moz-border-radius-topright: 4px;
+      -webkit-border-top-right-radius: 4px;
+      border-top-right-radius: 4px;
+      -moz-border-radius-bottomright: 4px;
+      -webkit-border-bottom-right-radius: 4px;
+      border-bottom-right-radius: 4px;
+      -webkit-box-shadow: inset rgba(255, 255, 255, 0.6) 0px 1px 0px, inset rgba(0, 0, 0, 0.6) 0px -1px 0px, rgba(0, 0, 0, 0.7) 0px 1px 16px;
+      -moz-box-shadow: inset rgba(255, 255, 255, 0.6) 0px 1px 0px, inset rgba(0, 0, 0, 0.6) 0px -1px 0px, rgba(0, 0, 0, 0.7) 0px 1px 16px;
+      box-shadow: inset rgba(255, 255, 255, 0.6) 0px 1px 0px, inset rgba(0, 0, 0, 0.6) 0px -1px 0px, rgba(0, 0, 0, 0.7) 0px 1px 16px; }
+      /* line 57, ../src/styles.scss */
+      .icons a:first-child {
+        margin-top: 0; } }
+@media (max-width: 700px) {
+  /* line 19, ../src/styles.scss */
+  .icons {
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    z-index: 1; }
+    /* line 78, ../src/styles.scss */
+    .icons a {
+      margin: 3px;
+      padding: 7px;
+      font-size: 1.5em;
+      width: 40px;
+      height: 40px;
+      text-align: center;
+      border: 1px solid #777;
+      display: inline-block;
+      vertical-align: top;
+      zoom: 1;
+      /* Fix for IE7 */
+      *display: inline;
+      /* Fix for IE7 */
+      -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+      -ms-border-radius: 4px;
+      -o-border-radius: 4px;
+      border-radius: 4px; } }
+
+/* line 97, ../src/styles.scss */
+#main {
+  height: 100%;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 20px;
+  position: relative;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.7) 0px 0px 16px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.7) 0px 0px 16px;
+  box-shadow: rgba(0, 0, 0, 0.7) 0px 0px 16px; }
+  @media (min-width: 701px) {
+    /* line 97, ../src/styles.scss */
+    #main {
+      width: 60%;
+      z-index: 25; } }
+  @media (max-width: 700px) {
+    /* line 97, ../src/styles.scss */
+    #main {
+      width: 96%;
+      z-index: 0; } }
+
+/* line 114, ../src/styles.scss */
+h1 {
+  font: 3em Helvetica, sans-serif;
+  font-weight: 900; }
+
+/* line 119, ../src/styles.scss */
+p {
+  font-family: Helvetica, sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.3em;
+  color: #333; }
+
+/* line 127, ../src/styles.scss */
+a {
+  color: darkblue;
+  text-decoration: none; }
+  /* line 131, ../src/styles.scss */
+  a:focus, a:hover {
+    text-decoration: underline; }
+
+/* line 136, ../src/styles.scss */
+div.button {
+  padding: 6px 12px 2px;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  font-family: Helvetica, sans-serif;
+  font-size: 1em;
+  font-weight: 500;
+  line-height: 1em;
+  color: #222;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 7px, inset rgba(0, 0, 0, 0.3) -1px -1px 0px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 7px, inset rgba(0, 0, 0, 0.3) -1px -1px 0px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 7px, inset rgba(0, 0, 0, 0.3) -1px -1px 0px; }
+
+/* line 149, ../src/styles.scss */
+#pasteArea {
+  margin-top: 80px; }

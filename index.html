@@ -3,20 +3,29 @@
 	<head>
 			<title>copybutton</title>
 			<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-			<style type="text/css" media="screen">
-			html, body { height:100%; background-color: orange;}
-			body { margin:0; padding:0; overflow:hidden; }
-			#main {width:60%; height:100%; margin: 0 auto; background-color: rgba(255,255,255,0.6); padding: 20px;}
-			.descript{color: #333;}
-			</style>
+			<link rel="stylesheet" href="css/styles.css"/>
+			<!--[if IE]>
+				<script type="text/javascript" src="js/ico-lte-ie7.js"></script>
+			<![endif]-->
 		</head>
 		<body>
+			<div class="icons">
+				<a href="http://github.com/jaymorgan" data-icon="&#x44;" target="_blank">
+					<span>GitHub</span>
+				</a>
+				<a href="http://twitter.com/jaymorgan" data-icon="&#x58;" target="_blank">
+					<span>Twitter</span>
+				</a>
+				<a href="http://www.jmorgan.ws" data-icon="&#x21;" target="_blank">
+					<span>Portfolio</span>
+				</a>
+			</div>
 			<div id="main">
 				<h1>Clipboard Button</h1>
-				<p class="descript">
+				<p>
 					You can see in the Source, there is a param set in the Object tag for FlashVars and the value is fvars=@jaymorgan. "@jaymorgan" is the string that is passed into the flash file and sent to the CLipboard when the button is pushed. This will work locally and on the web.
 				</p>
-				<p>Let me know what you think. Hit me up on <a href="http://twitter.com/@jaymorgan" target="_blank">Twitter</a>.</p>
+				<p>Let me know what you think. Hit me up on <a href="http://twitter.com/@jaymorgan" target="_blank">Twitter</a>. </p>
 				<div class="button">
 					<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="19" height="20" id="copybutton" align="middle">
 						<param name="movie" value="flash/copybutton.swf" />
@@ -29,13 +38,17 @@
 						<param name="menu" value="false" />
 						<param name="devicefont" value="false" />
 						<param name="salign" value="" />
-						<param name="FlashVars" value="fvars=@jaymorgan" />
+						<!-- This is the variable here in the Value parameter -->
+						<param name="FlashVars" value="fvars=This is the data" />
+						<!-- Don't forget to change the one that isn't for IE -->
 						<param name="allowScriptAccess" value="sameDomain" />
 						<!--[if !IE]>-->
 						<object type="application/x-shockwave-flash" data="flash/copybutton.swf" width="19" height="20">
 							<param name="movie" value="flash/copybutton.swf" />
 							<param name="quality" value="high" />
-							<param name="FlashVars" value="fvars=@jaymorgan" />
+							<!-- Change the variable here also. -->
+							<param name="FlashVars" value="fvars=This is the data" />
+							<!-- All set! -->
 							<param name="bgcolor" value="#ffffff" />
 							<param name="play" value="true" />
 							<param name="loop" value="true" />
@@ -55,6 +68,17 @@
 					</object>
 				<span>Copy To Clipboard</span>
 				</div> <!-- end button -->
+
+				<div id="pasteArea">
+					<textarea name="pasteHere" id="pasteHere" cols="50" rows="10" onclick="this.focus();this.select()">Paste here after clicking button</textarea>
+				</div>
+
 			</div> <!-- end main -->
+			<script>
+			    var _gaq=[['_setAccount','UA-25808495-1'],['_trackPageview']];
+			    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+			    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+			    s.parentNode.insertBefore(g,s)}(document,'script'));
+			</script>
 		</body>
 	</html>
