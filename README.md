@@ -1,9 +1,9 @@
 ClipboardButton
 ===============
 
-A simple button to add data to your clipboard on click, works through FlashVars in the Object tag in the HTML.
+A simple button to add data to your clipboard on click, works through FlashVars in the Object tag in the HTML. This only works onload right now. When you load the page the FlashVars gets set and the Flash file needs to reload to be able to reset the vars. I set the variables in javascript as the page is loading. The the vars get read into the Flash file.
 
-You can see in the Source, there is a param set in the Object tag for FlashVars and the value is `fvars=@jaymorgan`. "@jaymorgan" is the string that is passed into the flash file and sent to the CLipboard when the button is pushed. This will work locally and on the web.
+You can see in the Source, there is a param set in the Object tag for FlashVars and the value is `fvars=@jaymorgan`. "@jaymorgan" is the string that is passed into the Flash file and sent to the CLipboard when the button is pushed. This will work locally and on the web.
 
 Just change the value of this parameter `<param name="FlashVars" value="fvars=@jaymorgan" />`. Don't change the `fvars=`.
 
