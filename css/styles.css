@@ -638,6 +638,11 @@ a {
     text-decoration: underline; }
 
 /* line 136, ../src/styles.scss */
+#copybutton {
+  position: absolute;
+  z-index: 2; }
+
+/* line 141, ../src/styles.scss */
 div.button {
   padding: 6px 12px 2px;
   position: absolute;
@@ -646,12 +651,16 @@ div.button {
   font-family: Helvetica, sans-serif;
   font-size: 1em;
   font-weight: 500;
-  line-height: 1em;
+  line-height: 1.4em;
   color: #222;
   -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 7px, inset rgba(0, 0, 0, 0.3) -1px -1px 0px;
   -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 7px, inset rgba(0, 0, 0, 0.3) -1px -1px 0px;
   box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 7px, inset rgba(0, 0, 0, 0.3) -1px -1px 0px; }
+  /* line 152, ../src/styles.scss */
+  div.button span {
+    padding-left: 26px;
+    z-index: 1; }
 
-/* line 149, ../src/styles.scss */
+/* line 159, ../src/styles.scss */
 #pasteArea {
   margin-top: 80px; }
