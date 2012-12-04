@@ -14,7 +14,7 @@ Just change the value of this parameter `<param name="FlashVars" value="fvars=@j
 	copybutton.swf
 
 ## Demo
-[http://jmorgan.ws/clipboardButton/](http://jmorgan.ws/github/clipboardButton/copybutton.html)
+[http://jmorgan.ws/clipboardButton/](http://jmorgan.ws/github/clipboardButton/index.html)
 
 ## Coming Soon
 Don't use the `<object>` tag, This is just a placeholder, if anyone can spit me out a good version of an embed and object tag that I can use, send it over and I will roll it in.
